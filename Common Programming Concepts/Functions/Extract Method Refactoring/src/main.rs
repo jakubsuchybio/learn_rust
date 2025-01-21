@@ -1,7 +1,8 @@
 fn main() {
-    let year1993 = 1993;
-    println!("{}: 10 years ago was {}", year1993, year1993 - 10);
+    ten_years_ago(1993);
+    ten_years_ago(2021);
+}
 
-    let year2021 = 2021;
-    println!("{}: 10 years ago was {}", year2021, year2021 - 10);
+fn ten_years_ago(year: i32) {
+    println!("{}: 10 years ago was {}", year, year - 10);
 }
